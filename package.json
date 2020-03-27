@@ -1,0 +1,33 @@
+{
+  "name": "placement-tool-mc",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "modal": "^1.2.0",
+    "react": "^16.8.0",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-dom": "^16.8.0",
+    "react-scripts": "2.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "homepage": "https://web.wvm.edu/placement-tool-esl-mc"
+}
