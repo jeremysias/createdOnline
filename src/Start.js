@@ -678,7 +678,7 @@ class Start extends Component{
         }  
     }
     render(){
-        console.log("Testing Dev");
+        console.log("Testing Changes");
         
         if(!this.props.show){
             return null;
