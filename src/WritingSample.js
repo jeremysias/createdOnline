@@ -71,8 +71,7 @@ class WritingSampleForm extends Component{
        switch(this.props.promptNumber){
             case 1: writingPrompt = str.prompt1; break;
             case 2: writingPrompt = str.prompt2; break;
-            case 3: writingPrompt = str.prompt3; break;
-            case 4: writingPrompt = str.prompt4; break;
+            
             default: writingPrompt = "Something went wrong.";
        }
        return writingPrompt;

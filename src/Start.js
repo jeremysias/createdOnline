@@ -219,9 +219,9 @@ class Start extends Component{
 
     getRandomEssayPromptNumber(){
         const min = 1;
-        const max = 5;
+        const max = 3;
         let rand = min + Math.floor(Math.random() * (max - min));
-        if(rand === 5) rand = 4;
+        if(rand === 3) rand = 2;
         return rand;
     }
 
